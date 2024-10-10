@@ -1,0 +1,4 @@
+MODULE_NAME := kernel_util
+
+obj-m := kernel/$(MODULE_NAME).o
+ccflags-y := -I$(src)/include
