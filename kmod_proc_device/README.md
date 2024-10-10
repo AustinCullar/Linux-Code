@@ -1,7 +1,8 @@
-Kernel Module Creating Proc Device
-
 # Overview
-This directory contains code for building a Linux kernel module and a userspace
+This project involves a userspace C program loading a Linux kernel module and
+communicating with it via a proc device/file.
+
+The directory contains code for building a Linux kernel module and a userspace
 'agent', which communicates with the kernel module through a proc device.
 
 Environment:
